@@ -1,0 +1,11 @@
+@mixin titulososwald ($porte, $colores) {
+	font-family: "oswald";
+	font-size: $porte;
+	color: $colores;
+}
+
+@mixin titularsombra ($sizes){
+	color: $texto-wh;
+	font-size: $sizes;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
