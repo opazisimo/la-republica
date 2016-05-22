@@ -1,0 +1,54 @@
+#head-publicidad {
+	background-color: $bg-publicidad; 
+
+	img {
+		@include margins (15px, 15px);
+	}
+	ol {
+		position: relative;
+		right: 40px;
+
+		li {
+		display: inline;
+		margin-right: 20px;
+
+			a {
+				@include letraspt ($grisclaro, 12px, bold);
+			} 
+		}
+
+	}
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			.susc {
+				@include letraspt ($texto-wh, 12px, bold);
+				padding: 3px 5px;
+				background-color: $rosa-suscribete;
+				border-radius: 5px;
+			}
+			.fa {
+				@include  margins-lr (5px, 5px);
+			}
+			.fa-facebook {
+			color: $ico-fb;
+			}
+			.fa-twitter {
+			color: $ico-tw;
+			}
+			.fa-google-plus {
+			color: $ico-goo;
+			}
+			.fa-envelope {
+			color: $ico-mail;
+			}
+			.fa-rss {
+			color: $ico-rss;
+			}
+			.busc {
+				@include letraspt ($grisclaro, 12px, bold);
+			}
+		}
+	}
+}

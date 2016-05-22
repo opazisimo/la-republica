@@ -1,3 +1,48 @@
-
+#head-publicidad {
+  background-color: #f4f5f7; }
+  #head-publicidad img {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  #head-publicidad ol {
+    position: relative;
+    right: 40px; }
+    #head-publicidad ol li {
+      display: inline;
+      margin-right: 20px; }
+      #head-publicidad ol li a {
+        font-family: "PT Sans";
+        color: #768696;
+        font-size: 12px;
+        font-weight: bold; }
+  #head-publicidad ul {
+    list-style: none; }
+    #head-publicidad ul li {
+      display: inline; }
+      #head-publicidad ul li .susc {
+        font-family: "PT Sans";
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 3px 5px;
+        background-color: #dd4a4a;
+        border-radius: 5px; }
+      #head-publicidad ul li .fa {
+        margin-left: 5px;
+        margin-right: 5px; }
+      #head-publicidad ul li .fa-facebook {
+        color: #2a65a1; }
+      #head-publicidad ul li .fa-twitter {
+        color: #4bb7d9; }
+      #head-publicidad ul li .fa-google-plus {
+        color: #ca4638; }
+      #head-publicidad ul li .fa-envelope {
+        color: #ffbf00; }
+      #head-publicidad ul li .fa-rss {
+        color: #ff8000; }
+      #head-publicidad ul li .busc {
+        font-family: "PT Sans";
+        color: #768696;
+        font-size: 12px;
+        font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

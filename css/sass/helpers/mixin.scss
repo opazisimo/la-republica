@@ -1,11 +1,29 @@
-@mixin titulososwald ($porte, $colores) {
-	font-family: "oswald";
-	font-size: $porte;
-	color: $colores;
-}
-
 @mixin titularsombra ($sizes){
 	color: $texto-wh;
 	font-size: $sizes;
 	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+@mixin margins ($top, $bottom) {
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+@mixin margins-lr ($left, $right) {
+	margin-left: $left;
+	margin-right: $right;
+}
+
+@mixin letraspt ($letracolor, $letrasize, $letrapeso){
+	font-family: "PT Sans";
+	color: $letracolor;
+	font-size: $letrasize;
+	font-weight: $letrapeso;
+}
+
+@mixin letrasosw ($letracolor, $letrasize, $letrapeso){
+	font-family: "Oswald";
+	color: $letracolor;
+	font-size: $letrasize;
+	font-weight: $letrapeso;
 }
