@@ -190,4 +190,163 @@
     left: 20px;
     top: 120px; }
 
+#columnistas {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  text-align: center;
+  border-top: 6px solid #ba1414; }
+  #columnistas .titulo {
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px;
+    background-color: #ba1414;
+    position: relative;
+    bottom: 10px; }
+  #columnistas .colum {
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    #columnistas .colum .thumbnail {
+      -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+      -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+      box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+      border: 5px solid #ffffff;
+      width: 95px;
+      height: 95px;
+      margin: 0 auto; }
+    #columnistas .colum p {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 16px;
+      font-weight: bolder; }
+    #columnistas .colum span {
+      font-family: "PT Sans";
+      color: #333333;
+      font-size: 14px;
+      font-weight: bolder; }
+    #columnistas .colum :before, #columnistas .colum :after {
+      content: "";
+      display: block;
+      clear: both; }
+  #columnistas .uno {
+    background: url(../image/img-columnistas.jpg);
+    height: 95px;
+    background-size: cover; }
+  #columnistas .dos {
+    background: url(../image/img_blogueros.jpg);
+    height: 95px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+#noticias-y-publicidad .cajanoticia {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e2e2e2; }
+  #noticias-y-publicidad .cajanoticia p {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #noticias-y-publicidad .cajanoticia .titulo {
+    font-family: "PT Sans";
+    color: #ba1414;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  #noticias-y-publicidad .cajanoticia .todosobre {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: bold; }
+  #noticias-y-publicidad .cajanoticia .cajaoscura {
+    -webkit-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+    box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 14px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
+    text-align: left !important; }
+    #noticias-y-publicidad .cajanoticia .cajaoscura p {
+      position: relative;
+      top: 80px;
+      left: 10px; }
+  #noticias-y-publicidad .cajanoticia .uno {
+    background: url(../image/img_especiales.jpg);
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #noticias-y-publicidad .cajanoticia .tres {
+    background: url(../image/img_especiales_aside.jpg);
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+#granzona .ultimas {
+  font-family: "Oswald";
+  color: #768696;
+  font-size: 20px;
+  font-weight: normal; }
+#granzona .noticia {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2; }
+  #granzona .noticia h4 {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: bold; }
+  #granzona .noticia p {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 10px;
+    font-weight: normal; }
+  #granzona .noticia .fotitouno {
+    background: url(../image/img_news_grid.jpg);
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #granzona .noticia .fotitodos {
+    background: url(../image/foti2.jpg);
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #granzona .noticia .fotitotres {
+    background: url(../image/foti3.jpg);
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #granzona .noticia .fotitocuatro {
+    background: url(../image/foti4.jpg);
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  #granzona .noticia .textito p {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: normal; }
+  #granzona .noticia .textito li {
+    display: inline;
+    font-family: "PT Sans";
+    color: #768696;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: 5px; }
+    #granzona .noticia .textito li .fa {
+      color: #ba1414;
+      font-size: 16px; }
+    #granzona .noticia .textito li .icos {
+      width: 20px;
+      height: 20px; }
+
 /*# sourceMappingURL=main.css.map */

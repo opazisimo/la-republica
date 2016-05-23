@@ -39,3 +39,35 @@ box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.45);
 -moz-box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
 box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
 }
+
+@mixin caja-colum {
+		text-align: center;
+		display: inline-block;
+		float: left;
+}
+
+@mixin supercaja {
+	@include caja-colum;
+	@include margins (20px, 20px);
+	@include margins-lr(10px, 10px);
+}
+
+@mixin afterbefore {
+	:before, :after {
+		content: "";
+		display: block;
+		clear:both;
+	}
+}
+
+@mixin norepeat {
+		height:170px;
+		background-size:cover;
+		background-repeat:no-repeat;
+}
+
+@mixin norepeatdos {
+		height:120px;
+		background-size:cover;
+		background-repeat:no-repeat;
+}

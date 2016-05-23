@@ -87,3 +87,137 @@
 		}
 	}
 }
+
+#columnistas {
+	@include margins (50px, 50px);
+	background-color: $bg-columnistas;
+	padding-left:20px;
+	 text-align:center;
+	 border-top: 6px solid $rojo;
+	.titulo {
+		@include letrasosw ($texto-wh, 20px, normal);
+		padding:5px;
+		background-color: $rojo;
+		position: relative;
+		bottom: 10px;
+	}
+	.colum {
+		@include supercaja;
+		.thumbnail {
+			@include shadows;
+			border: 5px solid $texto-wh;
+			width:95px;
+			height:95px;
+			margin:0 auto;
+		}
+		p {
+			@include letraspt ($texto-oscuro, 16px, bolder);
+		}
+		span {
+			@include letraspt ($texto-gris, 14px, bolder);
+		}
+	@include afterbefore;
+	}
+	.uno {
+		background: url(../image/img-columnistas.jpg);
+		height: 95px;
+		background-size:cover;
+
+	}
+	.dos {
+		background: url(../image/img_blogueros.jpg);
+		height: 95px;
+		background-size:cover;
+		background-repeat: no-repeat;
+
+	}
+}
+#noticias-y-publicidad {
+	.cajanoticia {
+		@include margins (0px, 50px);
+		text-align: center;
+		border: 1px solid $grisito;
+		p{
+			padding-top:30px;
+			padding-bottom:30px;
+		}
+		.titulo {
+			@include letraspt ($rojo, 16px, bold);
+			@include margins (100px, 100px);
+		}
+		.todosobre {
+			@include letraspt ($texto-oscuro, 14px, bold);
+		}
+		.cajaoscura {
+			@include caja-titular;
+			@include titularsombra (14px);
+			text-align: left !important;
+			p {
+				position: relative;
+				top: 80px;
+				left: 10px;
+			}
+		}
+		.uno {
+		background: url(../image/img_especiales.jpg);
+		@include norepeat;
+		}
+		.tres {
+		background: url(../image/img_especiales_aside.jpg);
+		@include norepeat;
+		}
+	}
+}
+
+#granzona {
+	.ultimas {
+		@include letrasosw ($grisclaro, 20px, normal);
+	}
+	.noticia {
+		@include margins (0px, 30px);
+		padding-bottom: 10px;
+		border-bottom: 1px solid $grisito;
+		
+	h4 {
+		@include letraspt ($texto-oscuro, 20px, bold);
+	}
+	p {
+		@include letraspt ($texto-oscuro, 10px, normal);
+	}
+		.fotitouno {
+			background: url(../image/img_news_grid.jpg);
+			@include norepeatdos;
+		}
+		.fotitodos {
+			background: url(../image/foti2.jpg);
+			@include norepeatdos;
+		}
+		.fotitotres {
+			background: url(../image/foti3.jpg);
+			@include norepeatdos;
+		}
+		.fotitocuatro {
+			background: url(../image/foti4.jpg);
+			@include norepeatdos;
+		}
+		.textito {
+			p {
+				@include letraspt ($texto-oscuro, 14px, normal);
+			}
+			li {
+				display: inline;
+				@include letraspt ($grisclaro, 10px, normal);
+				@include margins-lr (5px, 5px);
+
+				.fa {
+					color: $rojo;
+					font-size: 16px;
+				}
+				.icos {
+					width: 20px;
+					height: 20px;
+				}
+			}
+		}
+	}
+}
