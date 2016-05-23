@@ -221,3 +221,28 @@
 		}
 	}
 }
+
+#asidepo {
+	.suscribete {
+		background: url(../image/trama_square.jpg);
+		background-repeat: repeat;
+		padding:40px 20px 20px 20px;
+		.blanco {
+			background-color: $texto-wh;
+			text-align: center;
+			width: 300px;
+			margin: 0 auto;
+			img {
+				position: relative;
+				bottom: 20px;
+			}
+			p {
+				@include letraspt ($texto-oscuro, 20px, normal);
+
+				span {
+					font-weight: bolder;
+				}
+			}
+		}
+	}
+}

@@ -349,4 +349,24 @@
       width: 20px;
       height: 20px; }
 
+#asidepo .suscribete {
+  background: url(../image/trama_square.jpg);
+  background-repeat: repeat;
+  padding: 40px 20px 20px 20px; }
+  #asidepo .suscribete .blanco {
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; }
+    #asidepo .suscribete .blanco img {
+      position: relative;
+      bottom: 20px; }
+    #asidepo .suscribete .blanco p {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: normal; }
+      #asidepo .suscribete .blanco p span {
+        font-weight: bolder; }
+
 /*# sourceMappingURL=main.css.map */
