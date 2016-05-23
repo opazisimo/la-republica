@@ -27,3 +27,15 @@
 	font-size: $letrasize;
 	font-weight: $letrapeso;
 }
+
+@mixin shadows {
+-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+}
+
+@mixin caja-titular {
+-webkit-box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
+-moz-box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
+box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
+}

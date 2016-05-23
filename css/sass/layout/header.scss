@@ -52,3 +52,51 @@
 		}
 	}
 }
+
+#head-principal {
+	.logo {
+		@include margins (50px, 50px);
+	}
+	.especialfutbol {
+		@include margins (30px, 30px);
+		text-align: center;
+		border: 1px solid $grisito;
+		border-bottom: 3px solid $espe-futbol;
+		.EDP {
+			position: relative;
+			bottom: 10px;
+			width: 150px;
+			@include shadows; 
+			@include letraspt ($texto-wh, 12px, bold);
+			padding:5px;
+			background-color: $espe-futbol;
+			margin: 0 auto;
+
+		}
+
+		p {
+			@include letraspt ($espe-futbol, 16px, bold);
+			@include margins (5px, 15px);
+		}
+	}
+
+	.editorial {
+		img {
+		@include margins (30px, 15px);
+		}
+	}
+	.navrojo {
+		background-color: $rojo;
+		border-radius: 5px;
+
+		li {
+			display: inline;
+			@include margins (15px, 5px);
+
+			a {
+				@include letraspt ($texto-wh, 12px, bold);
+				@include margins-lr (8px, 8px);
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+#contenidos {
+	.containers {
+		padding-left:15px !important;
+		padding-right:15px !important;
+	}
+	.publi {
+		box-sizing: border-box;
+	}
+	.tdd {
+		padding:5px;
+		border-radius: 15px;
+		width: 100%;
+		li {
+			display:inline;
+			@include margins-lr (3px, 3px);
+		}
+		.nig {
+			background-color: #000;
+			@include letrasosw ($texto-wh, 14px, normal);
+			padding: 5px 0px 5px 15px;
+		}
+		.whi {
+			background-color: $bgtemadeldia;
+			a {
+				@include letraspt ($texto-oscuro, 12px, bold);
+			}
+		}
+	}
+}
+#titular {
+	h1 {
+		@include letraspt ($texto-oscuro, 60px, bold);
+		text-align: center;
+	}
+	ul {
+		text-align: center;
+		@include margins (10px, 10px);
+	}
+	li {
+		display: inline;
+		@include letraspt ($grisclaro, 12px, normal);
+		@include margins-lr (6px, 6px);
+	}
+
+	.cajatitular {
+		p {
+			position: relative;
+			text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+		}
+	}
+
+	.ctuno {
+		background: url(../image/img_grid_principal.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 450px;
+		@include caja-titular;
+		@include letraspt ($texto-wh, 30px, bold);
+		p {
+			left: 30px;
+			top: 300px;
+		}
+	}
+	.ctdos {
+		background: url(../image/img_grid_secundario.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 220px;
+		@include caja-titular;
+		@include letraspt ($texto-wh, 20px, bold);
+		p {
+			left: 20px;
+			top: 120px;
+		}
+	}
+	.ctres {
+		background: url(../image/img_grid_secundario.jpg);
+		background-position: center;
+		background-size: cover;
+		height: 220px;
+		@include caja-titular;
+		@include letraspt ($texto-wh, 20px, bold);
+		@include margins (10px, 0px);
+		p {
+			left: 20px;
+			top: 120px;
+		}
+	}
+}

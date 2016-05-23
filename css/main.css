@@ -45,4 +45,149 @@
         font-size: 12px;
         font-weight: bold; }
 
+#head-principal .logo {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+#head-principal .especialfutbol {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #e2e2e2;
+  border-bottom: 3px solid #394757; }
+  #head-principal .especialfutbol .EDP {
+    position: relative;
+    bottom: 10px;
+    width: 150px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.45);
+    font-family: "PT Sans";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #394757;
+    margin: 0 auto; }
+  #head-principal .especialfutbol p {
+    font-family: "PT Sans";
+    color: #394757;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px; }
+#head-principal .editorial img {
+  margin-top: 30px;
+  margin-bottom: 15px; }
+#head-principal .navrojo {
+  background-color: #ba1414;
+  border-radius: 5px; }
+  #head-principal .navrojo li {
+    display: inline;
+    margin-top: 15px;
+    margin-bottom: 5px; }
+    #head-principal .navrojo li a {
+      font-family: "PT Sans";
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-right: 8px; }
+
+#contenidos .containers {
+  padding-left: 15px !important;
+  padding-right: 15px !important; }
+#contenidos .publi {
+  box-sizing: border-box; }
+#contenidos .tdd {
+  padding: 5px;
+  border-radius: 15px;
+  width: 100%; }
+  #contenidos .tdd li {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px; }
+  #contenidos .tdd .nig {
+    background-color: #000;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0px 5px 15px; }
+  #contenidos .tdd .whi {
+    background-color: #e4e7ea; }
+    #contenidos .tdd .whi a {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 12px;
+      font-weight: bold; }
+
+#titular h1 {
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center; }
+#titular ul {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+#titular li {
+  display: inline;
+  font-family: "PT Sans";
+  color: #768696;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 6px;
+  margin-right: 6px; }
+#titular .cajatitular p {
+  position: relative;
+  text-shadow: 2px 2px 0px black; }
+#titular .ctuno {
+  background: url(../image/img_grid_principal.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  -webkit-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  font-family: "PT Sans";
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold; }
+  #titular .ctuno p {
+    left: 30px;
+    top: 300px; }
+#titular .ctdos {
+  background: url(../image/img_grid_secundario.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  -webkit-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  font-family: "PT Sans";
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold; }
+  #titular .ctdos p {
+    left: 20px;
+    top: 120px; }
+#titular .ctres {
+  background: url(../image/img_grid_secundario.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 220px;
+  -webkit-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  box-shadow: inset -2px -84px 111px 39px rgba(0, 0, 0, 0.7);
+  font-family: "PT Sans";
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+  #titular .ctres p {
+    left: 20px;
+    top: 120px; }
+
 /*# sourceMappingURL=main.css.map */
