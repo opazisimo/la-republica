@@ -71,3 +71,124 @@ box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
 		background-size:cover;
 		background-repeat:no-repeat;
 }
+
+@mixin cajaside ($colorcaja){
+	@include margins (40px, 0px);
+	border-top: 5px solid $colorcaja;
+	border-bottom: 1px solid $grisito;
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	.titular {
+		padding: 5px;
+		background-color: $colorcaja;
+		@include letrasosw ($texto-wh, 16px, normal);
+		position: relative;
+		bottom: 30px;
+	}
+}
+
+@mixin cajacerrada ($colorcerrada) {
+	@include margins (40px, 0px);
+	border:  1px solid $grisito;
+	padding: 20px 20px 0px 20px;
+	text-align: center;
+	@include letraspt ($texto-oscuro, 12px, bolder);
+	.row {
+		@include margins (20px, 20px);
+	}
+	.mas {
+		border-bottom: 7px solid $colorcerrada;
+		padding-bottom: 5px;
+		@include letraspt ($texto-oscuro, 14px, normal);
+		a {
+			color: $colorcerrada;
+		}
+		position: relative;
+		bottom:10px;
+	}
+	.thumb {
+		img {
+			width: 100%;
+		}
+	}
+	.noti {
+		text-align: left;
+	}
+}
+@mixin cajaenc {
+	@include margins (40px, 0px);
+	background: url(../image/trama_square.jpg);
+	background-repeat: repeat;
+	padding:40px 20px 20px 20px;
+	.blanco {
+		background-color: $texto-wh;
+		text-align: center;
+		width: 300px;
+		margin: 0 auto;
+		img {
+			position: relative;
+			bottom: 20px;
+		}
+		p {
+			@include letraspt ($texto-oscuro, 20px, normal);
+
+			span {
+				font-weight: bolder;
+			}
+		}
+		.norm {
+			@include letraspt ($texto-oscuro, 16px, normal);
+		}
+		.btn {
+			background-color: $rojo;
+			color: $texto-wh;
+		}
+		a {
+			@include letraspt ($rojo, 16px, bold);
+		}
+	}
+	.blancodos {
+		@include margins(20px, 0px);
+	}
+}
+
+@mixin sideuno ($letragrande){
+	@include letraspt ($texto-oscuro, 14px, bold);
+	text-align: center;
+	.grandes {
+		@include letraspt ($letragrande, 20px, bold);
+	}
+	.row {
+		@include margins (20px, 20px);
+	}
+	.thumb {
+		img {
+			width: 100%;
+		}
+	}
+	.noti {
+		text-align: left;
+		a {
+			@include letraspt ($rojo, 14px, bold);
+			text-decoration: underline;
+		}
+	}
+}
+
+@mixin conblanco {
+	.contimg {
+		padding:20px;
+		height: 200px;
+		background-position: center;
+		@include margins (20px, 20px);
+	}
+	.white {
+
+		background-color: $texto-wh;
+		opacity: 0.5;
+		@include letraspt ($texto-oscuro, 16px, bold);
+		padding: 10px 0px;
+		position: relative;
+		top: 120px;
+	}
+}

@@ -350,6 +350,8 @@
       height: 20px; }
 
 #asidepo .suscribete {
+  margin-top: 40px;
+  margin-bottom: 0px;
   background: url(../image/trama_square.jpg);
   background-repeat: repeat;
   padding: 40px 20px 20px 20px; }
@@ -368,5 +370,438 @@
       font-weight: normal; }
       #asidepo .suscribete .blanco p span {
         font-weight: bolder; }
+    #asidepo .suscribete .blanco .norm {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 16px;
+      font-weight: normal; }
+    #asidepo .suscribete .blanco .btn {
+      background-color: #ba1414;
+      color: #ffffff; }
+    #asidepo .suscribete .blanco a {
+      font-family: "PT Sans";
+      color: #ba1414;
+      font-size: 16px;
+      font-weight: bold; }
+  #asidepo .suscribete .blancodos {
+    margin-top: 20px;
+    margin-bottom: 0px; }
+#asidepo .aweita {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border: 1px solid #e2e2e2;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 12px;
+  font-weight: bolder; }
+  #asidepo .aweita .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .aweita .mas {
+    border-bottom: 7px solid #872f85;
+    padding-bottom: 5px;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    bottom: 10px; }
+    #asidepo .aweita .mas a {
+      color: #872f85; }
+  #asidepo .aweita .thumb img {
+    width: 100%; }
+  #asidepo .aweita .noti {
+    text-align: left; }
+#asidepo .fotosdestacadas {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #768696;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center; }
+  #asidepo .fotosdestacadas .titular {
+    padding: 5px;
+    background-color: #768696;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .fotosdestacadas .grandes {
+    font-family: "PT Sans";
+    color: #768696;
+    font-size: 20px;
+    font-weight: bold; }
+  #asidepo .fotosdestacadas .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .fotosdestacadas .thumb img {
+    width: 100%; }
+  #asidepo .fotosdestacadas .noti {
+    text-align: left; }
+    #asidepo .fotosdestacadas .noti a {
+      font-family: "PT Sans";
+      color: #ba1414;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline; }
+#asidepo .especiales {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #768696;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center; }
+  #asidepo .especiales .titular {
+    padding: 5px;
+    background-color: #768696;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .especiales .contimg {
+    padding: 20px;
+    height: 200px;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .especiales .white {
+    background-color: #ffffff;
+    opacity: 0.5;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+    position: relative;
+    top: 120px; }
+  #asidepo .especiales .contiuno {
+    background: url(../image/img_especiales_aside.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #asidepo .especiales .contidos {
+    background: url(../image/img_especiales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #asidepo .especiales .contitres {
+    background: url(../image/un-image--thumb-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #asidepo .especiales .conticuatro {
+    background: url(../image/img_video_destacado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+#asidepo .caricatura {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #ba1414;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center; }
+  #asidepo .caricatura .titular {
+    padding: 5px;
+    background-color: #ba1414;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .caricatura p {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: bold; }
+  #asidepo .caricatura a {
+    font-family: "PT Sans";
+    color: #ba1414;
+    font-size: 14px;
+    font-weight: bold; }
+#asidepo .nuestrosblogueros {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #768696;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center; }
+  #asidepo .nuestrosblogueros .titular {
+    padding: 5px;
+    background-color: #768696;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .nuestrosblogueros .thumb img {
+    width: 100%; }
+  #asidepo .nuestrosblogueros .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .nuestrosblogueros .noti {
+    text-align: left; }
+  #asidepo .nuestrosblogueros p {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: bold; }
+  #asidepo .nuestrosblogueros span {
+    font-family: "PT Sans";
+    color: #768696;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline; }
+  #asidepo .nuestrosblogueros a {
+    font-family: "PT Sans";
+    color: #ba1414;
+    font-size: 16px;
+    font-weight: bold; }
+#asidepo .edicionimpresa {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #ba1414;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center; }
+  #asidepo .edicionimpresa .titular {
+    padding: 5px;
+    background-color: #ba1414;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .edicionimpresa .grandes {
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: bold; }
+  #asidepo .edicionimpresa .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .edicionimpresa .thumb img {
+    width: 100%; }
+  #asidepo .edicionimpresa .noti {
+    text-align: left; }
+    #asidepo .edicionimpresa .noti a {
+      font-family: "PT Sans";
+      color: #ba1414;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline; }
+#asidepo .infografias {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-top: 5px solid #768696;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 20px 0px 20px 0px;
+  text-align: center; }
+  #asidepo .infografias .titular {
+    padding: 5px;
+    background-color: #768696;
+    font-family: "Oswald";
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    bottom: 30px; }
+  #asidepo .infografias .contimg {
+    padding: 20px;
+    height: 200px;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .infografias .white {
+    background-color: #ffffff;
+    opacity: 0.5;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+    position: relative;
+    top: 120px; }
+  #asidepo .infografias .contiuno {
+    background: url(../image/img_especiales_aside.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #asidepo .infografias .contidos {
+    background: url(../image/img_especiales.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+#asidepo .libero {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border: 1px solid #e2e2e2;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 12px;
+  font-weight: bolder; }
+  #asidepo .libero .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .libero .mas {
+    border-bottom: 7px solid #d62247;
+    padding-bottom: 5px;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    bottom: 10px; }
+    #asidepo .libero .mas a {
+      color: #d62247; }
+  #asidepo .libero .thumb img {
+    width: 100%; }
+  #asidepo .libero .noti {
+    text-align: left; }
+#asidepo .popular {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border: 1px solid #e2e2e2;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 12px;
+  font-weight: bolder; }
+  #asidepo .popular .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .popular .mas {
+    border-bottom: 7px solid #ffea53;
+    padding-bottom: 5px;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    bottom: 10px; }
+    #asidepo .popular .mas a {
+      color: #ffea53; }
+  #asidepo .popular .thumb img {
+    width: 100%; }
+  #asidepo .popular .noti {
+    text-align: left; }
+#asidepo .wapa {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border: 1px solid #e2e2e2;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 12px;
+  font-weight: bolder; }
+  #asidepo .wapa .row {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #asidepo .wapa .mas {
+    border-bottom: 7px solid #d12570;
+    padding-bottom: 5px;
+    font-family: "PT Sans";
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    bottom: 10px; }
+    #asidepo .wapa .mas a {
+      color: #d12570; }
+  #asidepo .wapa .thumb img {
+    width: 100%; }
+  #asidepo .wapa .noti {
+    text-align: left; }
+#asidepo .lapreguntadeayer {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  background: url(../image/trama_square.jpg);
+  background-repeat: repeat;
+  padding: 40px 20px 20px 20px; }
+  #asidepo .lapreguntadeayer .blanco {
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; }
+    #asidepo .lapreguntadeayer .blanco img {
+      position: relative;
+      bottom: 20px; }
+    #asidepo .lapreguntadeayer .blanco p {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: normal; }
+      #asidepo .lapreguntadeayer .blanco p span {
+        font-weight: bolder; }
+    #asidepo .lapreguntadeayer .blanco .norm {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 16px;
+      font-weight: normal; }
+    #asidepo .lapreguntadeayer .blanco .btn {
+      background-color: #ba1414;
+      color: #ffffff; }
+    #asidepo .lapreguntadeayer .blanco a {
+      font-family: "PT Sans";
+      color: #ba1414;
+      font-size: 16px;
+      font-weight: bold; }
+  #asidepo .lapreguntadeayer .blancodos {
+    margin-top: 20px;
+    margin-bottom: 0px; }
+#asidepo .reportero {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  background: url(../image/trama_square.jpg);
+  background-repeat: repeat;
+  padding: 40px 20px 20px 20px; }
+  #asidepo .reportero .blanco {
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto; }
+    #asidepo .reportero .blanco img {
+      position: relative;
+      bottom: 20px; }
+    #asidepo .reportero .blanco p {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 20px;
+      font-weight: normal; }
+      #asidepo .reportero .blanco p span {
+        font-weight: bolder; }
+    #asidepo .reportero .blanco .norm {
+      font-family: "PT Sans";
+      color: #1f1f1f;
+      font-size: 16px;
+      font-weight: normal; }
+    #asidepo .reportero .blanco .btn {
+      background-color: #ba1414;
+      color: #ffffff; }
+    #asidepo .reportero .blanco a {
+      font-family: "PT Sans";
+      color: #ba1414;
+      font-size: 16px;
+      font-weight: bold; }
+  #asidepo .reportero .blancodos {
+    margin-top: 20px;
+    margin-bottom: 0px; }
 
 /*# sourceMappingURL=main.css.map */

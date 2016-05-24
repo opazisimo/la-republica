@@ -224,25 +224,103 @@
 
 #asidepo {
 	.suscribete {
-		background: url(../image/trama_square.jpg);
-		background-repeat: repeat;
-		padding:40px 20px 20px 20px;
-		.blanco {
-			background-color: $texto-wh;
-			text-align: center;
-			width: 300px;
-			margin: 0 auto;
+		@include cajaenc;
+	}
+	.aweita {
+		@include cajacerrada ($aweita);
+	}
+	.fotosdestacadas {
+		@include cajaside ($fotosdest);
+		@include sideuno ($fotosdest);
+	}
+	.especiales {
+		@include cajaside ($fotosdest);
+		@include conblanco;
+		.contiuno {
+			background: url(../image/img_especiales_aside.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.contidos {
+			background: url(../image/img_especiales.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.contitres {
+			background: url(../image/un-image--thumb-01.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.conticuatro {
+			background: url(../image/img_video_destacado.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+	.caricatura {
+		@include cajaside ($rojo);
+		p {
+			@include letraspt ($texto-oscuro, 20px, bold);
+		}
+		a {
+			@include letraspt ($rojo, 14px, bold);
+		}
+	}
+	.nuestrosblogueros {
+		@include cajaside ($fotosdest);
+		.thumb {
 			img {
-				position: relative;
-				bottom: 20px;
-			}
-			p {
-				@include letraspt ($texto-oscuro, 20px, normal);
-
-				span {
-					font-weight: bolder;
-				}
+				width: 100%;
 			}
 		}
+		.row {
+			@include margins (20px, 20px);
+		}
+		.noti {
+			text-align: left;
+		}
+		p {
+			@include letraspt ($texto-oscuro, 16px, bold);
+		}
+		span {
+			@include letraspt ($fotosdest, 12px, bold);
+			text-decoration: underline;
+		}
+		a {
+			@include letraspt ($rojo, 16px, bold);
+		}
+	}
+	.edicionimpresa {
+		@include cajaside ($rojo);
+		@include sideuno ($texto-oscuro);
+	}
+	.infografias {
+		@include cajaside ($fotosdest);
+		@include conblanco;
+		.contiuno {
+			background: url(../image/img_especiales_aside.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.contidos {
+			background: url(../image/img_especiales.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+	.libero {
+		@include cajacerrada($libero);
+	}
+	.popular {
+		@include cajacerrada($popular);
+	}
+	.wapa {
+		@include cajacerrada($wapa);
+	}
+	.lapreguntadeayer {
+		@include cajaenc;
+	}
+	.reportero {
+		@include cajaenc;
 	}
 }
