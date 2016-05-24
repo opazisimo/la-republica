@@ -179,6 +179,36 @@
     .roji li .active {
       background-color: #811101; }
 
+.repis :before, .repis :after {
+  content: "";
+  display: block;
+  clear: both; }
+.repis .centralis {
+  width: 25%;
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px; }
+  .repis .centralis .abajo {
+    background-color: #e2e2e2;
+    padding: 10px; }
+    .repis .centralis .abajo img {
+      border: 2px solid #ffffff; }
+    .repis .centralis .abajo .thumb {
+      box-sizing: border-box; }
+    .repis .centralis .abajo .noti {
+      margin-left: 30px; }
+      .repis .centralis .abajo .noti span {
+        font-family: "Oswald";
+        color: #1f1f1f;
+        font-size: 12px;
+        font-weight: bold; }
+      .repis .centralis .abajo .noti p {
+        font-family: "PT Sans";
+        color: #768696;
+        font-size: 16px;
+        font-weight: bold; }
+
 #contenidos .containers {
   padding-left: 15px !important;
   padding-right: 15px !important; }

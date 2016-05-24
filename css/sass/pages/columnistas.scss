@@ -29,3 +29,34 @@
 		}
 	}
 }
+
+.repis {
+		@include afterbefore;
+	.centralis {
+		width: 25%;
+		display: inline-block;
+		float: left;
+		@include margins-lr (5px, 5px);
+		.abajo {
+			background-color: $grisito;
+			padding: 10px;
+
+			img {
+				border: 2px solid $texto-wh;
+			}
+			.thumb {
+				box-sizing: border-box;
+			}
+			.noti {
+				margin-left: 30px;
+				span {
+					@include letrasosw ($texto-oscuro, 12px, bold);			
+				}
+				p {
+					@include letraspt ($fotosdest, 16px, bold);
+				}
+			}
+
+		}
+	}
+}
