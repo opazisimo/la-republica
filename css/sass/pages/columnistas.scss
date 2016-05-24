@@ -30,14 +30,15 @@
 	}
 }
 
-.repis {
+#column {
+	.repis {
 		@include afterbefore;
-	.centralis {
-		width: 25%;
-		display: inline-block;
-		float: left;
-		@include margins-lr (5px, 5px);
 		.abajo {
+			@include margins (5px, 5px);
+			width: 22%;
+			display: inline-block;
+			float: left;
+			@include margins-lr (5px, 5px);
 			background-color: $grisito;
 			padding: 10px;
 
