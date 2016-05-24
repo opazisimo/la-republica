@@ -93,6 +93,66 @@
       margin-left: 8px;
       margin-right: 8px; }
 
+.blogsi h1 {
+  font-family: "PT Sans";
+  color: #1f1f1f;
+  font-size: 40px;
+  font-weight: bold; }
+.blogsi .ultimas {
+  font-family: "Oswald";
+  color: #768696;
+  font-size: 16px;
+  font-weight: normal; }
+
+.blog .repi {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: block; }
+  .blog .repi .central {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .blog .repi .central :before, .blog .repi .central :after {
+      content: "";
+      display: block;
+      clear: both; }
+    .blog .repi .central .arriba {
+      text-align: center;
+      padding: 15px 0px; }
+      .blog .repi .central .arriba p {
+        font-family: "PT Sans";
+        color: #1f1f1f;
+        font-size: 12px;
+        font-weight: normal; }
+      .blog .repi .central .arriba h5 {
+        font-family: "PT Sans";
+        color: #1f1f1f;
+        font-size: 20px;
+        font-weight: bold; }
+    .blog .repi .central .abajo {
+      background-color: #e2e2e2;
+      padding: 10px; }
+      .blog .repi .central .abajo img {
+        border: 2px solid #ffffff; }
+      .blog .repi .central .abajo .thumb {
+        box-sizing: border-box; }
+      .blog .repi .central .abajo .noti {
+        margin-left: 30px; }
+        .blog .repi .central .abajo .noti span {
+          font-family: "Oswald";
+          color: #1f1f1f;
+          font-size: 12px;
+          font-weight: bold; }
+        .blog .repi .central .abajo .noti p {
+          font-family: "PT Sans";
+          color: #768696;
+          font-size: 16px;
+          font-weight: bold; }
+
 #contenidos .containers {
   padding-left: 15px !important;
   padding-right: 15px !important; }

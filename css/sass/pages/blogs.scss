@@ -1,0 +1,11 @@
+.blogsi {
+	h1 {
+		@include letraspt ($texto-oscuro, 40px, bold);
+	}
+	.ultimas {
+		@include letrasosw ($grisclaro, 16px, normal);
+	}
+}
+.blog {
+	@include blogs;
+}

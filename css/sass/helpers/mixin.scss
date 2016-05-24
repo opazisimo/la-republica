@@ -192,3 +192,52 @@ box-shadow: inset -2px -84px 111px 39px rgba(0,0,0,0.7);
 		top: 120px;
 	}
 }
+
+@mixin blogs {
+	.repi {
+		@include margins (30px, 0px);
+		display: block;
+		.central {
+			display: inline-block;
+			padding: 10px;
+			border: 2px solid $grisito;
+			width: 30%;
+			float: left;
+			@include afterbefore;
+			@include margins-lr (10px, 10px);
+			
+			.arriba {
+				text-align: center;
+				padding: 15px 0px;
+
+				p {
+					@include letraspt ($texto-oscuro, 12px, normal);
+				}
+				h5 {
+					@include letraspt ($texto-oscuro, 20px, bold);
+				}
+			}
+			.abajo {
+				background-color: $grisito;
+				padding: 10px;
+
+				img {
+					border: 2px solid $texto-wh;
+				}
+				.thumb {
+					box-sizing: border-box;
+				}
+				.noti {
+					margin-left: 30px;
+					span {
+						@include letrasosw ($texto-oscuro, 12px, bold);			
+					}
+					p {
+						@include letraspt ($fotosdest, 16px, bold);
+					}
+				}
+
+			}
+		}
+	}
+}
