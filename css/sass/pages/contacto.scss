@@ -1,0 +1,44 @@
+#titulo {
+	padding: 0px 30px;
+	@include letraspt ($texto-oscuro, 30px, bolder);
+	text-align: center;
+	p {
+		@include letraspt ($texto-oscuro, 16px, normal);
+		text-align: left;
+	}
+
+}
+#formulario {
+	padding: 0px 30px;
+	width: 59%;
+	@include margins (50px, 50px);
+	@include margins-lr (20%, 20%);
+	.form-control {
+		@include margins (20px, 20px);
+	}
+	h6 {
+		@include letraspt ($texto-oscuro, 14px, normal);
+		position: relative;
+		bottom: 10px;
+
+	}
+}
+.destinatario {
+	@include letraspt ($texto-oscuro, 16px, normal);
+
+	h4 {
+		@include letraspt ($texto-oscuro, 20px, bold);
+		@include margins (20px, 15px);
+	}
+	label {
+		@include letraspt ($texto-oscuro, 14px, normal);
+	}
+	.ejes {
+		@include letraspt ($texto-oscuro, 12px, normal);
+		text-align: right;
+	}
+	textarea {
+		@include margins (20px, 20px);
+	}
+
+}
